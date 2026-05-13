@@ -1,376 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
 
   <!-- SEO -->
-  <title>Enjoy the Comfort | Custom Curtains & Bedding Johannesburg & Pretoria</title>
+
+  <title>
+    Enjoy the Comfort | Custom Curtains & Luxury Bedding
+  </title>
 
   <meta
     name="description"
-    content="Custom curtains, luxury pillows and quality duvets in Johannesburg & Pretoria. Handmade comfort with 20+ years experience. Order easily via WhatsApp."
+    content="Custom curtains, pillows and duvets in Johannesburg & Pretoria. Handmade luxury comfort with over 20 years experience."
   />
 
   <meta
     name="keywords"
-    content="custom curtains Johannesburg, curtains Pretoria, pillows South Africa, duvets Johannesburg, bedding Pretoria"
+    content="custom curtains Johannesburg, curtains Pretoria, pillows South Africa, bedding Johannesburg"
   />
 
-  <meta name="author" content="Enjoy the Comfort" />
+  <!-- GOOGLE FONTS -->
 
-  <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
     rel="stylesheet"
   />
 
   <style>
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
     }
 
-    :root {
-      --bg: #f7f4ef;
-      --dark: #1f1f1f;
-      --gold: #b08d57;
-      --white: #ffffff;
-      --soft: #efe7dc;
-      --text: #555;
-      --shadow: 0 10px 30px rgba(0,0,0,0.08);
-      --radius: 24px;
+    :root{
+      --bg:#f7f4ef;
+      --dark:#1e1e1e;
+      --gold:#b08d57;
+      --text:#666;
+      --white:#fff;
+      --soft:#efe7dc;
+      --shadow:0 15px 40px rgba(0,0,0,0.08);
+      --radius:28px;
     }
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background: var(--bg);
-      color: var(--dark);
-      line-height: 1.6;
+    body{
+      font-family:'Inter',sans-serif;
+      background:var(--bg);
+      color:var(--dark);
+      line-height:1.6;
+      overflow-x:hidden;
     }
 
-    img {
-      width: 100%;
-      display: block;
-      border-radius: 20px;
+    img{
+      width:100%;
+      display:block;
     }
 
-    a {
-      text-decoration: none;
+    a{
+      text-decoration:none;
     }
 
-    .container {
-      width: 90%;
-      max-width: 1200px;
-      margin: auto;
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
     }
 
     /* NAV */
 
-    nav {
-      position: sticky;
-      top: 0;
-      background: rgba(247,244,239,0.95);
-      backdrop-filter: blur(10px);
-      z-index: 1000;
-      border-bottom: 1px solid #e5ddd1;
+    nav{
+      position:sticky;
+      top:0;
+      z-index:1000;
+      backdrop-filter:blur(10px);
+      background:rgba(247,244,239,0.95);
+      border-bottom:1px solid #e9dfd1;
     }
 
-    .nav-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 18px 0;
+    .nav-content{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px 0;
     }
 
-    .logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: var(--dark);
+    .logo{
+      font-family:'Playfair Display',serif;
+      font-size:1.7rem;
+      font-weight:700;
     }
 
-    .nav-btn {
-      background: #25D366;
-      color: white;
-      padding: 12px 20px;
-      border-radius: 999px;
-      font-weight: 600;
-      transition: 0.3s ease;
+    .nav-btn{
+      background:#25D366;
+      color:white;
+      padding:14px 24px;
+      border-radius:999px;
+      font-weight:600;
+      transition:0.3s ease;
     }
 
-    .nav-btn:hover {
-      transform: translateY(-2px);
+    .nav-btn:hover{
+      transform:translateY(-2px);
     }
 
     /* HERO */
 
-    .hero {
-      padding: 80px 0 60px;
+    .hero{
+      padding:80px 0;
     }
 
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 50px;
-      align-items: center;
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:60px;
+      align-items:center;
     }
 
-    .hero-text h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 4rem;
-      line-height: 1.1;
-      margin-bottom: 24px;
+    .hero-text h1{
+      font-family:'Playfair Display',serif;
+      font-size:4rem;
+      line-height:1.1;
+      margin-bottom:25px;
     }
 
-    .hero-text p {
-      color: var(--text);
-      font-size: 1.1rem;
-      margin-bottom: 32px;
-      max-width: 500px;
+    .hero-text p{
+      color:var(--text);
+      font-size:1.1rem;
+      margin-bottom:35px;
+      max-width:520px;
     }
 
-    .hero-actions {
-      display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
+    .hero-badge{
+      background:var(--soft);
+      display:inline-block;
+      padding:12px 18px;
+      border-radius:999px;
+      margin-bottom:25px;
+      font-size:0.9rem;
+      font-weight:600;
     }
 
-    .primary-btn {
-      background: var(--dark);
-      color: white;
-      padding: 16px 28px;
-      border-radius: 999px;
-      font-weight: 600;
+    .hero-actions{
+      display:flex;
+      gap:16px;
+      flex-wrap:wrap;
     }
 
-    .secondary-btn {
-      background: white;
-      color: var(--dark);
-      padding: 16px 28px;
-      border-radius: 999px;
-      font-weight: 600;
-      border: 1px solid #ddd;
+    .primary-btn{
+      background:var(--dark);
+      color:white;
+      padding:16px 28px;
+      border-radius:999px;
+      font-weight:600;
+      transition:0.3s ease;
     }
 
-    .hero-image img {
-      height: 600px;
-      object-fit: cover;
-      box-shadow: var(--shadow);
+    .primary-btn:hover{
+      transform:translateY(-3px);
+    }
+
+    .secondary-btn{
+      background:white;
+      border:1px solid #ddd;
+      color:var(--dark);
+      padding:16px 28px;
+      border-radius:999px;
+      font-weight:600;
+    }
+
+    .hero-image{
+      position:relative;
+    }
+
+    .hero-image img{
+      height:650px;
+      object-fit:cover;
+      border-radius:32px;
+      box-shadow:0 25px 60px rgba(0,0,0,0.12);
+    }
+
+    .floating-card{
+      position:absolute;
+      bottom:30px;
+      left:-40px;
+      background:white;
+      width:240px;
+      padding:24px;
+      border-radius:24px;
+      box-shadow:var(--shadow);
+    }
+
+    .floating-card span{
+      color:var(--gold);
+      font-size:0.85rem;
+      font-weight:700;
+      display:block;
+      margin-bottom:10px;
+    }
+
+    .floating-card h3{
+      margin-bottom:10px;
+    }
+
+    .floating-card p{
+      color:var(--text);
+      margin-bottom:15px;
+      font-size:0.95rem;
+    }
+
+    .floating-card strong{
+      font-size:1.5rem;
+    }
+
+    /* TRUST MINI */
+
+    .mini-trust{
+      display:flex;
+      gap:30px;
+      margin-top:40px;
+      flex-wrap:wrap;
+    }
+
+    .mini-trust strong{
+      font-size:1.4rem;
+      display:block;
+    }
+
+    .mini-trust p{
+      margin:0;
+      font-size:0.9rem;
     }
 
     /* SECTION */
 
-    section {
-      padding: 80px 0;
+    section{
+      padding:90px 0;
     }
 
-    .section-title {
-      text-align: center;
-      margin-bottom: 50px;
+    .section-title{
+      text-align:center;
+      margin-bottom:55px;
     }
 
-    .section-title h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5rem;
-      margin-bottom: 12px;
+    .section-title h2{
+      font-family:'Playfair Display',serif;
+      font-size:2.7rem;
+      margin-bottom:10px;
     }
 
-    .section-title p {
-      color: var(--text);
+    .section-title p{
+      color:var(--text);
     }
 
     /* PRODUCTS */
 
-    .products-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 28px;
+    .products-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:28px;
     }
 
-    .card {
-      background: white;
-      border-radius: var(--radius);
-      overflow: hidden;
-      box-shadow: var(--shadow);
-      transition: 0.3s ease;
+    .card{
+      background:white;
+      border-radius:var(--radius);
+      overflow:hidden;
+      box-shadow:var(--shadow);
+      transition:0.4s ease;
     }
 
-    .card:hover {
-      transform: translateY(-6px);
+    .card:hover{
+      transform:translateY(-8px);
     }
 
-    .card-content {
-      padding: 24px;
+    .card img{
+      height:320px;
+      object-fit:cover;
     }
 
-    .card h3 {
-      font-size: 1.4rem;
-      margin-bottom: 10px;
+    .card-content{
+      padding:26px;
     }
 
-    .card p {
-      color: var(--text);
-      margin-bottom: 20px;
+    .card-content h3{
+      margin-bottom:12px;
+      font-size:1.5rem;
     }
 
-    .price {
-      font-size: 1.3rem;
-      font-weight: 700;
-      margin-bottom: 20px;
-      color: var(--gold);
+    .card-content p{
+      color:var(--text);
+      margin-bottom:20px;
     }
 
-    .card-btn {
-      display: inline-block;
-      background: var(--dark);
-      color: white;
-      padding: 14px 20px;
-      border-radius: 999px;
-      font-size: 0.95rem;
-      font-weight: 600;
+    .price{
+      color:var(--gold);
+      font-weight:700;
+      font-size:1.3rem;
+      margin-bottom:20px;
     }
 
-    /* TRUST */
-
-    .trust {
-      background: #efe8dc;
-      border-radius: 32px;
-      padding: 60px 40px;
+    .card-btn{
+      display:inline-block;
+      background:var(--dark);
+      color:white;
+      padding:14px 22px;
+      border-radius:999px;
+      font-weight:600;
     }
 
-    .trust-grid {
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      gap: 24px;
-      text-align: center;
-      margin-top: 40px;
+    /* TESTIMONIALS */
+
+    .testimonial-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:25px;
     }
 
-    .trust-item {
-      background: white;
-      padding: 30px 20px;
-      border-radius: 20px;
+    .testimonial{
+      background:white;
+      padding:35px;
+      border-radius:24px;
+      box-shadow:var(--shadow);
     }
 
-    .trust-item h3 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-      color: var(--gold);
+    .testimonial p{
+      color:var(--text);
+      margin-bottom:20px;
     }
 
     /* CTA */
 
-    .cta {
-      text-align: center;
-      background: var(--dark);
-      color: white;
-      border-radius: 32px;
-      padding: 70px 20px;
+    .cta{
+      background:var(--dark);
+      color:white;
+      text-align:center;
+      padding:80px 30px;
+      border-radius:32px;
     }
 
-    .cta h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      margin-bottom: 20px;
+    .cta h2{
+      font-family:'Playfair Display',serif;
+      font-size:3rem;
+      margin-bottom:20px;
     }
 
-    .cta p {
-      max-width: 700px;
-      margin: auto;
-      margin-bottom: 30px;
-      color: #ddd;
+    .cta p{
+      max-width:650px;
+      margin:auto;
+      margin-bottom:30px;
+      color:#ddd;
     }
 
     /* FOOTER */
 
-    footer {
-      padding: 40px 0;
-      text-align: center;
-      color: var(--text);
-      font-size: 0.95rem;
+    footer{
+      text-align:center;
+      padding:50px 20px 120px;
+      color:var(--text);
     }
 
-    /* FLOATING WHATSAPP */
+    /* WHATSAPP */
 
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25D366;
-      color: white;
-      width: 65px;
-      height: 65px;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 1.8rem;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-      z-index: 9999;
+    .whatsapp-float{
+      position:fixed;
+      right:20px;
+      bottom:90px;
+      width:65px;
+      height:65px;
+      border-radius:50%;
+      background:#25D366;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      color:white;
+      font-size:1.8rem;
+      box-shadow:0 10px 25px rgba(0,0,0,0.2);
+      z-index:9999;
     }
 
-    /* MOBILE */
+    /* MOBILE NAV */
 
-    @media(max-width: 950px){
+    .mobile-nav{
+      position:fixed;
+      bottom:0;
+      left:0;
+      width:100%;
+      background:white;
+      display:flex;
+      justify-content:space-around;
+      padding:16px 10px;
+      box-shadow:0 -5px 20px rgba(0,0,0,0.08);
+      z-index:999;
+    }
 
-      .hero-grid {
-        grid-template-columns: 1fr;
+    .mobile-nav a{
+      color:var(--dark);
+      font-size:0.9rem;
+      font-weight:600;
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width:980px){
+
+      .hero-grid{
+        grid-template-columns:1fr;
       }
 
-      .hero-text h1 {
-        font-size: 3rem;
+      .products-grid{
+        grid-template-columns:1fr;
       }
 
-      .hero-image img {
-        height: 400px;
+      .testimonial-grid{
+        grid-template-columns:1fr;
       }
 
-      .products-grid {
-        grid-template-columns: 1fr;
+      .hero-text h1{
+        font-size:3rem;
       }
 
-      .trust-grid {
-        grid-template-columns: 1fr 1fr;
+      .floating-card{
+        left:20px;
+        bottom:20px;
       }
 
     }
 
-    @media(max-width: 600px){
+    @media(max-width:600px){
 
-      .hero {
-        padding-top: 40px;
+      .hero{
+        padding-top:50px;
       }
 
-      .hero-text h1 {
-        font-size: 2.3rem;
+      .hero-text h1{
+        font-size:2.3rem;
       }
 
-      .section-title h2 {
-        font-size: 2rem;
+      .section-title h2{
+        font-size:2rem;
       }
 
-      .cta h2 {
-        font-size: 2rem;
+      .cta h2{
+        font-size:2rem;
       }
 
-      .trust-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .nav-content {
-        flex-direction: column;
-        gap: 15px;
+      .hero-image img{
+        height:450px;
       }
 
     }
 
   </style>
+
 </head>
 
 <body>
@@ -378,66 +471,118 @@
   <!-- NAV -->
 
   <nav>
+
     <div class="container nav-content">
-      <div class="logo">Enjoy the Comfort</div>
+
+      <div class="logo">
+        Enjoy the Comfort
+      </div>
 
       <a
         class="nav-btn"
-        href="https://wa.me/27XXXXXXXXX"
+        href="https://wa.me/27791202433"
         target="_blank"
       >
-        Chat on WhatsApp
+        WhatsApp Us
       </a>
+
     </div>
+
   </nav>
 
   <!-- HERO -->
 
   <section class="hero">
+
     <div class="container hero-grid">
 
       <div class="hero-text">
 
+        <div class="hero-badge">
+          Trusted for 20+ Years in Johannesburg & Pretoria
+        </div>
+
         <h1>
-          Custom Curtains & Luxury Bedding for Beautiful Homes
+          Elegant Curtains & Luxury Bedding Crafted for Comfort
         </h1>
 
         <p>
-          Handmade curtains, pillows and duvets crafted with comfort,
-          quality and care. Proudly serving Johannesburg and Pretoria
-          for over 20 years.
+          Discover handcrafted curtains, luxury pillows and premium duvets
+          designed to transform your home with warmth, softness and timeless style.
         </p>
 
         <div class="hero-actions">
 
           <a
             class="primary-btn"
-            href="https://wa.me/27XXXXXXXXX?text=Hi%20I’d%20like%20to%20book%20a%20curtain%20measurement"
+            href="https://wa.me/27791202433?text=Hi%20I’d%20like%20to%20book%20a%20curtain%20measurement"
             target="_blank"
           >
-            Book a Measurement
+            Book Measurement
           </a>
 
           <a
             class="secondary-btn"
-            href="https://wa.me/27XXXXXXXXX"
+            href="https://wa.me/27791202433?text=Hi%20I’d%20like%20to%20order%202%20pillows%20for%20R300"
             target="_blank"
           >
-            Shop on WhatsApp
+            Shop Pillows
           </a>
+
+        </div>
+
+        <div class="mini-trust">
+
+          <div>
+            <strong>20+</strong>
+            <p>Years Experience</p>
+          </div>
+
+          <div>
+            <strong>100%</strong>
+            <p>Handcrafted Quality</p>
+          </div>
+
+          <div>
+            <strong>Fast</strong>
+            <p>WhatsApp Ordering</p>
+          </div>
 
         </div>
 
       </div>
 
+      <!-- HERO IMAGE -->
+
       <div class="hero-image">
+
         <img
           src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop"
-          alt="Luxury Curtains"
+          alt="Luxury Bedroom"
         />
+
+        <div class="floating-card">
+
+          <span>BEST SELLER</span>
+
+          <h3>
+            2 Pillow Bundle
+          </h3>
+
+          <p>
+            Premium soft ball fibre pillows made for everyday comfort.
+          </p>
+
+          <strong>
+            R300
+          </strong>
+
+        </div>
+
       </div>
 
     </div>
+
   </section>
 
   <!-- PRODUCTS -->
@@ -447,44 +592,51 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Shop Our Best Sellers</h2>
+
+        <h2>
+          Explore Our Collection
+        </h2>
+
         <p>
-          Soft luxury comfort designed for everyday living.
+          Quality comfort essentials designed for modern homes.
         </p>
+
       </div>
 
       <div class="products-grid">
 
-        <!-- CARD 1 -->
+        <!-- CARD -->
 
         <div class="card">
 
           <img
-            src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=1200&auto=format&fit=crop"
             alt="Curtains"
           />
 
           <div class="card-content">
 
-            <h3>Custom Curtains</h3>
+            <h3>
+              Custom Curtains
+            </h3>
 
             <p>
-              Elegant custom curtains tailored to your home and measurements.
+              Tailor-made curtain solutions for elegant living spaces.
             </p>
 
             <a
               class="card-btn"
-              href="https://wa.me/27XXXXXXXXX?text=Hi%20I’d%20like%20to%20order%20custom%20curtains"
+              href="https://wa.me/27791202433"
               target="_blank"
             >
-              Get a Quote
+              Get Quote
             </a>
 
           </div>
 
         </div>
 
-        <!-- CARD 2 -->
+        <!-- CARD -->
 
         <div class="card">
 
@@ -495,29 +647,31 @@
 
           <div class="card-content">
 
-            <h3>2 Pillows Bundle</h3>
+            <h3>
+              Luxury Pillows
+            </h3>
 
             <p>
-              High-quality standard ball fibre pillows for maximum comfort.
+              Soft standard pillows with premium quality ball fibre filling.
             </p>
 
             <div class="price">
-              R300
+              2 for R300
             </div>
 
             <a
               class="card-btn"
-              href="https://wa.me/27XXXXXXXXX?text=Hi%20I’d%20like%20to%20order%202%20pillows%20for%20R300"
+              href="https://wa.me/27791202433"
               target="_blank"
             >
-              Order Pillows
+              Order Now
             </a>
 
           </div>
 
         </div>
 
-        <!-- CARD 3 -->
+        <!-- CARD -->
 
         <div class="card">
 
@@ -528,7 +682,9 @@
 
           <div class="card-content">
 
-            <h3>Duvets</h3>
+            <h3>
+              Premium Duvets
+            </h3>
 
             <p>
               Available in Single, Double, Queen and King sizes.
@@ -536,7 +692,7 @@
 
             <a
               class="card-btn"
-              href="https://wa.me/27XXXXXXXXX?text=Hi%20I’d%20like%20to%20order%20a%20duvet"
+              href="https://wa.me/27791202433"
               target="_blank"
             >
               Order Duvets
@@ -552,36 +708,56 @@
 
   </section>
 
-  <!-- TRUST -->
+  <!-- TESTIMONIALS -->
 
   <section>
 
-    <div class="container trust">
+    <div class="container">
 
       <div class="section-title">
-        <h2>Why Customers Trust Us</h2>
+
+        <h2>
+          What Customers Say
+        </h2>
+
       </div>
 
-      <div class="trust-grid">
+      <div class="testimonial-grid">
 
-        <div class="trust-item">
-          <h3>20+</h3>
-          <p>Years Experience</p>
+        <div class="testimonial">
+
+          <p>
+            “Beautiful curtains and excellent service. The quality exceeded our expectations.”
+          </p>
+
+          <strong>
+            — Johannesburg Customer
+          </strong>
+
         </div>
 
-        <div class="trust-item">
-          <h3>100%</h3>
-          <p>Handcrafted Quality</p>
+        <div class="testimonial">
+
+          <p>
+            “The pillows are incredibly soft and delivery was quick and professional.”
+          </p>
+
+          <strong>
+            — Pretoria Customer
+          </strong>
+
         </div>
 
-        <div class="trust-item">
-          <h3>JHB & PTA</h3>
-          <p>Delivery Available</p>
-        </div>
+        <div class="testimonial">
 
-        <div class="trust-item">
-          <h3>Fast</h3>
-          <p>WhatsApp Ordering</p>
+          <p>
+            “You can immediately see the experience and craftsmanship in the products.”
+          </p>
+
+          <strong>
+            — Returning Customer
+          </strong>
+
         </div>
 
       </div>
@@ -601,8 +777,7 @@
       </h2>
 
       <p>
-        Message us today for custom curtains, luxury pillows
-        and quality bedding delivered to Johannesburg and Pretoria.
+        Order curtains, pillows and bedding easily through WhatsApp today.
       </p>
 
       <a
@@ -633,5 +808,31 @@
     💬
   </a>
 
+  <!-- MOBILE NAV -->
+
+  <div class="mobile-nav">
+
+    <a href="#">
+      Home
+    </a>
+
+    <a href="#">
+      Curtains
+    </a>
+
+    <a href="#">
+      Pillows
+    </a>
+
+    <a
+      href="https://wa.me/27791202433"
+      target="_blank"
+    >
+      WhatsApp
+    </a>
+
+  </div>
+
 </body>
+
 </html>
